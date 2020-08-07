@@ -32,7 +32,7 @@ export default function CenteredGrid() {
     <div className={classes.root}>
      
         <Toolbar>
-          <Typography variant="h3" className={classes.title}>
+          <Typography variant="h1" className={classes.title}>
             Justin Ponthier
           </Typography>
           <Typography variant="h6" className={classes.button}>
