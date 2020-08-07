@@ -1,94 +1,49 @@
-# Unit 20 React Homework: React Portfolio
+# employee
 
-Now that you've worked with React and have multiple projects to share, you'll be updating your portfolio and other materials to build toward being employer competitive. Creating a portfolio using React will help set you apart from other developers whose portfolios do not use some of the latest technologies.
+## Description
 
-If you are opting out of career services, this is *still a required assignment*. Part of being a web developer means being a part of a community. Having a place to share your projects is *necessary* if you're applying for jobs, but is still *critical* on your journey as a developer.
+An accesible site catered towards everyone who is interested in viewing the portfolio and recieving information.
 
-## Requirements
+## Table of Contents
 
-* Updated portfolio featuring 6 total projects
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-* Use React
+## Installation
 
-* A `Header` component that appears on multiple pages
+Clone this repository: [Github Repo](https://github.com/ponthierjustin/jp-portfolio)
 
-* A single `Project` component that will be used multiple times on a single page 
-
-* Navigation with React Router, dynamic rendering, or another third part router
-
-* A `Footer` component that appears on multiple pages
-
-* Update GitHub profile with pinned repositories featuring those same projects
-
-## Grading
-
-| Requirement    | Weight |
-| -------------- | ------ |
-| Portoflio      | 90%    |
-| GitHub Profile | 10%    |
+## Usage
 
 
-## Instructions
+An accesible site catered towards everyone who is interested in viewing the portfolio and recieving information.
 
-  - [Updated Portfolio](#updated-portfolio)
-    - [Design](#design)
-  - [React](#react)
-  - [Updated LinkedIn Profile](#updated-linkedin-profile)
+## Contributions
 
-### Updated Portfolio
+Solo project
 
-Your updated site should still have all of the content it previously had:
+## License
 
-* Your name
+![License](https://img.shields.io/badge/License-MIT-black.svg)
+  
+MIT License
 
-* Links to your GitHub profile & LinkedIn page as well as your email address and phone number
+Copyright (c) [2020][Justin Ponthier]
+  
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+  
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+  
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-* A link to a PDF of your resume with updated projects
+## Questions
 
-* A list of projects. For each project, make sure you have the following:
+Send a short, but descriptive email:
 
-  * Project title
+ponthierjustin@gmail.com
 
-  * Link to the deployed version
-
-  * Link to the GitHub repository
-
-  * GIF or screenshot of the deployed application
-
-
-#### Design
-
-As with the previous portfolio homework, "good" design is subjective. Your site should look
-"polished." Here are a few guidelines on what that means:
-
-* Mobile-first design
-
-* Choose a color palette for your site so it doesn't just look like
-the default bootstrap theme or an unstyled HTML site. You may we
-
-* Make sure the font size is large enough to read, and that the colors don't cause eye strain.
-
-* If you want to go above and beyond, try using animations and react component libraries. Note 
-that this will _not_ affect your grade, but it may impact how potentials employers gauge your knowledge.
-
-### React
-
-Additionally, this new portfolio should be created using React.
-
-At a minimum, your portfolio should include the following:
-
-* A `Header` component that appears on multiple pages
-
-* A single `Project` component that will be used multiple times on a single page 
-
-* Navigation with React Router, dynamic rendering, or another third part router
-
-* A `Footer` component that appears on multiple pages
-
-
-### Updated LinkedIn Profile 
-
-Make sure to update your LinkedIn Profile with the new skills you've acquired since the last time it was updated.
-
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+[Github Repo](https://github.com/ponthierjustin)

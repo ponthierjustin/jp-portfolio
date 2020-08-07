@@ -4,6 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Typography from "@material-ui/core/Typography";
+import Button from "../Button/Button"
 
 
 const useStyles = makeStyles((theme) => ({
@@ -15,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
     textAlign: 'center',
     color: theme.palette.text.secondary,
     fontFamily: "Sora",
-  }
+  },
 }));
 
 export default function CenteredGrid() {
@@ -34,20 +35,21 @@ export default function CenteredGrid() {
               </Typography>
         </Grid>
         <Grid item xs={6}>
-          <Paper className={classes.paper}>Projects</Paper>
+          
         </Grid>
-        <Grid item xs={3} >
-        <Paper className={classes.paper}> Project</Paper>
+        <Grid container item xs={12} spacing={3} >
+
+        <Button/>
         </Grid>
-        <Grid item xs={3}  >
-        <Paper className={classes.paper}> Project</Paper>
-        </Grid>
-        <Grid item xs={3}>
-          <Paper className={classes.paper}>Project</Paper>
+      {/*   <Grid item xs={3}  >
+        <Button/>
         </Grid>
         <Grid item xs={3}>
-          <Paper className={classes.paper}>Project</Paper>
+        <Button/>
         </Grid>
+        <Grid item xs={3}>
+        <Button/>
+        </Grid> */}
       </Grid>
     </div>
   );
