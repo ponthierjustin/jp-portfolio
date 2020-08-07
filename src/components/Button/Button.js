@@ -7,21 +7,18 @@ import Typography from '@material-ui/core/Typography';
 
 const images = [
   {
-    url: 'https://i.imgur.com/UQW4MRc.png',
     src: 'https://github.com/ponthierjustin/poketrader-app',
     title: 'Pokemon Trader',
     width: '50%',
   },
     {
-    url: 'https://i.imgur.com/UQW4MRc.png',
     src: 'https://github.com/ponthierjustin/employee',
     title: 'Employee Directory',
     width: '50%',
   },
   {
-    url: 'https://i.imgur.com/UQW4MRc.png',
-    src: 'https://github.com/ponthierjustin/poketrader-app',
-    title: 'Pokemon Trader',
+    src: 'https://github.com/ponthierjustin/fitness-tracker',
+    title: 'Fitness Tracker',
     width: '50%',
   }, 
 
