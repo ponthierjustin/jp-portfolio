@@ -39,9 +39,9 @@ export default function CenteredGrid() {
             <Link
               color="inherit"
               underline="hover"
-              to="/"
+              to="/jp-portfolio"
                className={
-                location.pathname === "/" ? "nav-link active" : "nav-link"
+                location.pathname === "/jp-portfolio" ? "nav-link active" : "nav-link"
               } 
             >
               Home
