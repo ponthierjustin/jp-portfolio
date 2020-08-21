@@ -7,20 +7,32 @@ import Typography from '@material-ui/core/Typography';
 
 const images = [
   {
+    url: 'https://images.pexels.com/photos/3941855/pexels-photo-3941855.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
     src: 'https://github.com/ponthierjustin/poketrader-app',
     title: 'Pokemon Trader',
     width: '50%',
+    
   },
     {
+      url: 'https://images.pexels.com/photos/3941855/pexels-photo-3941855.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
     src: 'https://github.com/ponthierjustin/employee',
     title: 'Employee Directory',
     width: '50%',
   },
   {
+    url: 'https://images.pexels.com/photos/3941855/pexels-photo-3941855.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
     src: 'https://github.com/ponthierjustin/fitness-tracker',
     title: 'Fitness Tracker',
     width: '50%',
   }, 
+  {
+    url: 'https://github.com/ponthierjustin/jp-portfolio/blob/develop/src/components/Button/images/trackPacker.png',
+    src: 'https://github.com/ponthierjustin/fitness-tracker',
+    title: 'Track Packer',
+    width: '50%',
+  }, 
+
+  
 
 
 ];
@@ -28,10 +40,10 @@ const images = [
 const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
-    flexWrap: 'nowrap',
+    flexWrap: 'wrap',
     minWidth: 300,
     width: '100%',
-    padding: theme.spacing(2),
+    padding: theme.spacing(1),
   },
   image: {
     position: 'relative',
