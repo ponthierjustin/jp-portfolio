@@ -11,6 +11,7 @@ import DescriptionIcon from "@material-ui/icons/Description";
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
+    
   },
   title: {
     flexGrow: 1,
@@ -30,7 +31,7 @@ export default function CenteredGrid() {
   return (
     <div className={classes.root}>
       <Toolbar>
-        <Typography variant="h7" className={classes.button}>
+{/*         <Typography variant="h7" className={classes.button}>
           <Link
             color="inherit"
             underline="hover"
@@ -64,7 +65,7 @@ export default function CenteredGrid() {
           className={classes.button}
         >
           Resume
-        </IconButton>
+        </IconButton> */}
 
         <IconButton
           edge="start"
