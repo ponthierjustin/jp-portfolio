@@ -1,4 +1,4 @@
-import React from 'react';
+/* import React from 'react';
 import Grid from '../components/Grid/Grid'
 const Contact = () => {
     return (
@@ -8,4 +8,4 @@ const Contact = () => {
     );
 };
 
-export default Contact;
+export default Contact; */

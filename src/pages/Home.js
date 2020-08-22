@@ -1,10 +1,10 @@
 import React from 'react';
-import Grid from '../components/Grid/Grid'
+import User from '../components/Grid/User'
 
 const Home = () => {
     return (
         <div>
-            <Grid />
+            <User />
         </div>
     );
 };

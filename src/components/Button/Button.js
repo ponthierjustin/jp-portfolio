@@ -32,6 +32,30 @@ const images = [
     title: "Track Packer",
     width: "50%",
   },
+  {
+    /* url: TrackPacker, */
+    src: "https://github.com/ponthierjustin/fitness-tracker",
+    title: "Track Packer",
+    width: "50%",
+  },
+  {
+    /* url: TrackPacker, */
+    src: "https://github.com/ponthierjustin/fitness-tracker",
+    title: "Track Packer",
+    width: "50%",
+  },
+  {
+    /* url: TrackPacker, */
+    src: "https://github.com/ponthierjustin/fitness-tracker",
+    title: "Track Packer",
+    width: "50%",
+  },
+  {
+    /* url: TrackPacker, */
+    src: "https://github.com/ponthierjustin/fitness-tracker",
+    title: "Track Packer",
+    width: "50%",
+  },
 ];
 
 const useStyles = makeStyles((theme) => ({
@@ -40,7 +64,7 @@ const useStyles = makeStyles((theme) => ({
     flexWrap: "wrap",
     minWidth: 300,
     width: "100%",
-    padding: theme.spacing(1),
+    padding: theme.spacing(2),
   },
   image: {
     position: "relative",

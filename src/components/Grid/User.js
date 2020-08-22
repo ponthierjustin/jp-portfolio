@@ -34,33 +34,59 @@ export default function CenteredGrid() {
       <Grid container spacing={1}>
         <Grid item xs={12}></Grid>
         <Grid item xs={12} sm={12}>
-          {/* <Typography variant="h3" className={classes.paper}>
-            Justin Ponthier
-          </Typography>  */}
-
-          <Divider /* variant="middle" */ />
+        <Divider />
         </Grid>
         <Grid item xs={12} sm={2}>
           <Grow in={true}>
             <Typography variant="h3" className={classes.paper}>
-              Home
+              <Link
+                color="inherit"
+                underline="hover"
+                to="/jp-portfolio"
+                className={
+                  location.pathname === "/jp-portfolio"
+                    ? "nav-link active"
+                    : "nav-link"
+                }
+              >
+                Home
+              </Link>
             </Typography>
           </Grow>
           <Grow in={true}>
             <Typography variant="h3" className={classes.paper}>
-              Projects
+              <Link
+                color="inherit"
+                underline="hover"
+                to="/projects"
+                className={
+                  location.pathname === "/projects"
+                    ? "nav-link active"
+                    : "nav-link"
+                }
+              >
+                Projects
+              </Link>
             </Typography>
           </Grow>
           <Grow in={true}>
             <Typography variant="h3" className={classes.paper}>
-              Contact
+              <Link
+                to="/contact"
+                color="inherit"
+                underline="hover"
+                className={
+                  location.pathname === "/contact"
+                    ? "nav-link active"
+                    : "nav-link"
+                }
+              >
+                Contact
+              </Link>
             </Typography>
           </Grow>
         </Grid>
-
-        <Grid item xs={12} sm={9}>
-          <Button/>
-        </Grid>
+        <Grid item xs={12} sm={9}></Grid>
       </Grid>
     </div>
   );
