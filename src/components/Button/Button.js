@@ -9,25 +9,25 @@ import ReadMore from "../../images/readMore.png";
 
 const images = [
   {
-    url: PokeTrader,
+    /* url: PokeTrader, */
     src: "https://github.com/ponthierjustin/poketrader-app",
     title: "Pokemon Trader",
     width: "50%",
   },
   {
-    url: Employee,
+    /* url: Employee, */
     src: "https://github.com/ponthierjustin/employee",
     title: "Employee Directory",
     width: "50%",
   },
   {
-    url: ReadMore,
+    /* url: ReadMore, */
     src: "https://github.com/ponthierjustin/fitness-tracker",
     title: "Read More TV",
     width: "50%",
   },
   {
-    url: TrackPacker,
+    /* url: TrackPacker, */
     src: "https://github.com/ponthierjustin/fitness-tracker",
     title: "Track Packer",
     width: "50%",
