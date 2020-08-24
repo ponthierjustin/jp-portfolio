@@ -11,14 +11,16 @@ import DescriptionIcon from "@material-ui/icons/Description";
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
+    
   },
   title: {
     flexGrow: 1,
-    fontFamily: "Sora",
+   /*   textAlign: 'center',  */
+     fontFamily: "Bebas Neue",
    
   },
   button: {
-    padding: theme.spacing(2),
+    padding: theme.spacing(1),
     fontFamily: "Sora",
   },
 }));
@@ -29,8 +31,11 @@ export default function CenteredGrid() {
 
   return (
     <div className={classes.root}>
-      <Toolbar>
-        <Typography variant="h7" className={classes.button}>
+      <Toolbar variant='dense'>
+      <Typography variant="h3" className={classes.title}>
+            Justin Ponthier
+          </Typography> 
+{/*         <Typography variant="h7" className={classes.button}>
           <Link
             color="inherit"
             underline="hover"
@@ -64,7 +69,7 @@ export default function CenteredGrid() {
           className={classes.button}
         >
           Resume
-        </IconButton>
+        </IconButton> */}
 
         <IconButton
           edge="start"
@@ -72,7 +77,7 @@ export default function CenteredGrid() {
           target="_blank"
           href="https://github.com/ponthierjustin"
         >
-          <GitHubIcon className={classes.button}  />
+          <GitHubIcon fontSize="large" className={classes.button}  />
         </IconButton>
         <IconButton
           edge="start"
@@ -80,7 +85,7 @@ export default function CenteredGrid() {
           target="_blank"
           href="https://www.linkedin.com/in/justin-ponthier-1509a8174/"
         >
-          <LinkedInIcon className={classes.button} />
+          <LinkedInIcon fontSize="large" className={classes.button} />
         </IconButton>
       </Toolbar>
     </div>

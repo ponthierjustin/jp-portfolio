@@ -3,6 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
+import Button from "../components/Button/Button";
 import Divider from "@material-ui/core/Divider";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import { Link, useLocation } from "react-router-dom";
@@ -21,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Home = () => {
+const Projects = () => {
   const classes = useStyles();
   const location = useLocation();
   return (
@@ -90,14 +91,17 @@ const Home = () => {
             <Button />
           </Grow> */}
           <Typography variant="h2" className={classes.paper}>
-            Hi I'm Justin Ponthier
+            Track Packer
           </Typography>
-          <Typography variant="h4" className={classes.paper}>
-            I am a full stack web developer that primarily works building MERN stack applications. I merge an enthusiasm for usability and user experience with
-            technical expertise to generate fresh digital experiences.Motivated
-            individual with Full-Stack Web Development skills seeking new
-            opportunities, learning environments with growth potential, and
-            creative building platforms. I've built an extensive knowledge of languages and tools I use to build my applications.
+          <Button />
+          <Typography variant="h5" className={classes.paper}>
+            This application keeps track of the user's digital collection of a
+            user's adventure gear. Users create an account, which they then can
+            add items into their inventory. When users create their excursion,
+            they are able to add into their inventory in that specific
+            excursion. This allows the user to keep track of what they need for
+            all their adventures! The application was built usinf these
+            technologies:
           </Typography>
           <SvgIcon
             fontSize="large"
@@ -214,4 +218,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Projects;
