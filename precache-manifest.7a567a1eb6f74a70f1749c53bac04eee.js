@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c23d7380e1b9a5e2d499ea9e6f72c72e",
+    "revision": "5d4011055f53c1ab13f228b8aa47df1a",
     "url": "/jp-portfolio/index.html"
   },
   {
-    "revision": "2b1d9036ea82ff0e9a71",
+    "revision": "c0d2eafdac689b0f62a2",
     "url": "/jp-portfolio/static/css/main.f6b8f2df.chunk.css"
   },
   {
-    "revision": "10b89159cb8a02cc4d33",
-    "url": "/jp-portfolio/static/js/2.14df2ab7.chunk.js"
+    "revision": "92b1028e82f752552057",
+    "url": "/jp-portfolio/static/js/2.654c8c22.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/jp-portfolio/static/js/2.14df2ab7.chunk.js.LICENSE.txt"
+    "url": "/jp-portfolio/static/js/2.654c8c22.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2b1d9036ea82ff0e9a71",
-    "url": "/jp-portfolio/static/js/main.fd431d3f.chunk.js"
+    "revision": "c0d2eafdac689b0f62a2",
+    "url": "/jp-portfolio/static/js/main.5a91d3a0.chunk.js"
   },
   {
     "revision": "bc8237386c9d09200d80",
