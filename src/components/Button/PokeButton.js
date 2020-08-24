@@ -2,24 +2,17 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import ButtonBase from "@material-ui/core/ButtonBase";
 import Typography from "@material-ui/core/Typography";
-import TrackPacker from "../../images/trackPacker.png";
-import Employee from "../../images/employee.png";
 import PokeTrader from "../../images/pokeTrader.jpg";
-import ReadMore from "../../images/readMore.png";
+
 
 const images = [
-/*   {
-    url: Employee, 
-    src: "https://github.com/ponthierjustin/employee",
-    title: "Employee Directory",
-    width: "50%",
-  }, */
-  {
-    url: TrackPacker,
-    src: "https://github.com/ponthierjustin/trackPacker",
-    title: "Track Packer",
+   {
+    url: PokeTrader, 
+    src: "https://github.com/ponthierjustin/poketrader-app",
+    title: "Pokemon Trader",
     width: "100%",
   },
+
 ];
 
 const useStyles = makeStyles((theme) => ({
@@ -98,7 +91,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function ButtonBases() {
+export default function PokeButton() {
   const classes = useStyles();
 
   return (
