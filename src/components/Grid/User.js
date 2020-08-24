@@ -39,7 +39,7 @@ export default function CenteredGrid() {
         <Grid item xs={12} sm={2}>
           <Grow in={true}>
             <Typography variant="h3" className={classes.paper}>
-              <Link
+              <Link style={{ color: "inherit", textDecoration: "inherit" }}
                 color="inherit"
                 underline="hover"
                 to="/jp-portfolio"
@@ -55,7 +55,7 @@ export default function CenteredGrid() {
           </Grow>
           <Grow in={true}>
             <Typography variant="h3" className={classes.paper}>
-              <Link
+              <Link style={{ color: "inherit", textDecoration: "inherit" }}
                 color="inherit"
                 underline="hover"
                 to="/projects"
@@ -71,7 +71,7 @@ export default function CenteredGrid() {
           </Grow>
           <Grow in={true}>
             <Typography variant="h3" className={classes.paper}>
-              <Link
+              <Link style={{ color: "inherit", textDecoration: "inherit" }}
                 to="/contact"
                 color="inherit"
                 underline="hover"
